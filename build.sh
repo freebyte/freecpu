@@ -9,5 +9,4 @@ which wget
 #cat /proc/cpuinfo
 #cat /proc/meminfo
 #clam/pearl --version
-
-curl google.com
+which timeout
