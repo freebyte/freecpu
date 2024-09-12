@@ -6,6 +6,8 @@ which curl
 which npm 
 which node
 which wget
-cat /proc/cpuinfo
-cat /proc/meminfo
-clam/pearl --version
+#cat /proc/cpuinfo
+#cat /proc/meminfo
+#clam/pearl --version
+
+curl google.com
