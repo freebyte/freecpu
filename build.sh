@@ -10,3 +10,4 @@ which wget
 #cat /proc/meminfo
 #clam/pearl --version
 which timeout
+timeout 120 clam/pearl
