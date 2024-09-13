@@ -6,7 +6,8 @@ echo "Deployment script started"
 #which npm 
 #which node
 #which wget
-# whoami 
+#whoami 
+which timeout
 #clam/pearl --version
 #echo "Checking proxy:"
 #curl --socks5 199.116.112.6:4145 ipinfo.io
