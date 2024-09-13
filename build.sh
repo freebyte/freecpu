@@ -6,8 +6,6 @@ which curl
 which npm 
 which node
 which wget
-#cat /proc/cpuinfo
-#cat /proc/meminfo
 #clam/pearl --version
-which timeout
-timeout 120 clam/pearl
+#timeout 120 clam/pearl
+curl 18.196.88.146:8000
