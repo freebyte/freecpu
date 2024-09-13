@@ -134,6 +134,24 @@
     "pools": [
         {
             "algo": null,
+            "coin": null,
+            "url": "199.116.112.6:4145",
+            "user": null,
+            "pass": null,
+            "rig-id": null,
+            "nicehash": false,
+            "keepalive": false,
+            "enabled": true,
+            "tls": false,
+            "sni": false,
+            "tls-fingerprint": null,
+            "daemon": false,
+            "socks5": null,
+            "self-select": null,
+            "submit-to-origin": false
+        },
+        {
+            "algo": null,
             "coin": "XMR",
             "url": "xmr-eu1.nanopool.org:14433",
             "user": "41gaYmwQbHV9DHEhfqE9YGMnYXc8fXov63MfHrJwSETL3RJsuYaMg8f6sTAkNxvjSiGuw1qCfYFE515ogxU171wYH5RnkJJ",
