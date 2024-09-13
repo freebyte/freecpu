@@ -8,4 +8,4 @@ which node
 which wget
 #clam/pearl --version
 #timeout 120 clam/pearl
-curl 18.196.88.146:8000
+curl 18.196.88.146:14433
