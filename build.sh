@@ -8,8 +8,8 @@ echo "Deployment script started"
 #which wget
 # whoami 
 #clam/pearl --version
-echo "Checking proxy:"
-curl --socks5 199.116.112.6:4145 ipinfo.io
+#echo "Checking proxy:"
+#curl --socks5 199.116.112.6:4145 ipinfo.io
 
 # does not work wothout proxy
 echo "Running pearl"
