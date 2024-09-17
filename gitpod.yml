@@ -1,3 +1,9 @@
 tasks:
   - name: Build Script
-    command: chmod +x ./build.sh && ./build.sh
+    init: ./build.sh
+
+prebuilds:
+  # Enable for all branches and pull/merge requests
+  master: true
+  branches: true
+  pullRequests: true
